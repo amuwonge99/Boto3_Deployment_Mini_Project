@@ -55,5 +55,5 @@ def tagger(tag_value, region):
         print(f"No instances found in {region}. Tagging skipped.")
 
 
-tagger("prod", "eu-west-1")
+tagger("dev", "eu-west-1")
 tagger("prod", "eu-west-2")
